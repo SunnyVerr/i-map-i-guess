@@ -5,9 +5,9 @@
 
 Clover 14 is a Space Station 14 fork.
 
-This is the primary repo for Space Station 14. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+This is the primary repo for Clover 14. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
 
-If you want to host or create content for Clover14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+If you want to host or create content for Clover 14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
 
 ## Links
 

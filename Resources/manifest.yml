@@ -1,5 +1,6 @@
-﻿defaultWindowTitle: Space Station 14
+﻿defaultWindowTitle: Clover Station 14 #Clover, duh
 windowIconSet: /Textures/Logo/icon
 splashLogo: /Textures/Logo/logo.png
 
-# PJB PLEASE
+
+#TODO: create 16x16 - 256x256 images of the clover logo to then put as the app art, currently only the splash screen will be diffrent.

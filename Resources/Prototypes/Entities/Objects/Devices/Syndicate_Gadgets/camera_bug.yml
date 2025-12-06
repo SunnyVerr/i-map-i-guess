@@ -26,3 +26,4 @@
   - type: SurveillanceCameraMonitor
   - type: StaticPrice
     price: 2000
+#TODO: make this something you have to interact with the cam monitors to use but make it cheaper (like planting a bug IRL)

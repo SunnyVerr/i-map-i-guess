@@ -35,3 +35,4 @@
   - type: PhysicalComposition
     materialComposition:
       Plastic: 100
+      Glass: 50 #Clover

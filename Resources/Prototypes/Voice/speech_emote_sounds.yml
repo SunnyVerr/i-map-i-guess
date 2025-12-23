@@ -700,3 +700,11 @@
       collection: MaleGasp
     DefaultDeathgasp:
       collection: WawaDeath
+
+- type: emoteSounds #clover
+  id: Gira
+  sounds:
+    Scream:
+      path: /Audio/_Clover/Comedy/gira_scream.ogg
+      params:
+        variation: 0.125

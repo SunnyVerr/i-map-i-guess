@@ -38,6 +38,7 @@
       - WhitelistChameleon
       - HamsterWearable
 
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTinfoilCrown

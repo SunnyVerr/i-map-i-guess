@@ -41,4 +41,5 @@ This Code of Conduct is an edited version of the [Django Code of Conduct](https:
 
 > [!NOTE]
 > If anything is relevant to us (Clover), contact us on our discord.
+
 [Discord[(https://discord.gg/XkdERHGvsB/)

@@ -40,4 +40,5 @@ Maintainers are expected to adhere to the guidelines as listed in the [Github Mo
 This Code of Conduct is an edited version of the [Django Code of Conduct](https://www.djangoproject.com/conduct/), licensed under CC BY 3.0, for the Space Station 14 Github repository.
 
 > [!NOTE]
-> If anything is relevant to us, contact us on our [Discord[(https://discord.gg/XkdERHGvsB/).
+> If anything is relevant to us (Clover), contact us on our discord.
+[Discord[(https://discord.gg/XkdERHGvsB/)

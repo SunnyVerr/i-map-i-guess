@@ -41,7 +41,7 @@
     - Revolutionary
     - Zombie
     - Wizard
-    - KesslerSyndromeScheduler
+    #- KesslerSyndromeScheduler - Clover
     - RampingStationEventScheduler
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation

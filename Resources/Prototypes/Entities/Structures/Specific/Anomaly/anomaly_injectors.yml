@@ -92,37 +92,38 @@
             sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shock_VOX
 
-- type: entity
-  parent: BaseAnomalyInjector
-  id: AnomalyTrapShadow
-  suffix: Shadow
-  components:
-  - type: Sprite
-    layers:
-    - state: pink
-    - sprite: Structures/Specific/Anomalies/shadow_anom.rsi
-      state: pulse
-    - sprite: Mobs/Species/Human/parts.rsi
-      state: full
-  - type: InnerBodyAnomalyInjector
-    injectionComponents:
-      - type: Anomaly
-        deleteEntity: false
-        maxPointsPerSecond: 100
-        corePrototype: AnomalyCoreShadow
-        coreInertPrototype: AnomalyCoreShadowInert
-        supercriticalSoundAtAnimationStart:
-          collection: AnomalyShadowSupercritical
-      - type: InnerBodyAnomaly
-        injectionProto: AnomalyInjectionShadow
-        startMessage: inner-anomaly-start-message-shadow
-        fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-          state: shadow
-        speciesSprites:
-          Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
-            state: shadow_VOX
+# Clover
+#- type: entity
+#  parent: BaseAnomalyInjector
+#  id: AnomalyTrapShadow
+#  suffix: Shadow
+#  components:
+#  - type: Sprite
+#    layers:
+#    - state: pink
+#    - sprite: Structures/Specific/Anomalies/shadow_anom.rsi
+#      state: pulse
+#    - sprite: Mobs/Species/Human/parts.rsi
+#      state: full
+#  - type: InnerBodyAnomalyInjector
+#    injectionComponents:
+#      - type: Anomaly
+#        deleteEntity: false
+#        maxPointsPerSecond: 100
+#        corePrototype: AnomalyCoreShadow
+#        coreInertPrototype: AnomalyCoreShadowInert
+#        supercriticalSoundAtAnimationStart:
+#          collection: AnomalyShadowSupercritical
+#      - type: InnerBodyAnomaly
+#        injectionProto: AnomalyInjectionShadow
+#        startMessage: inner-anomaly-start-message-shadow
+#        fallbackSprite:
+#          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+#          state: shadow
+#        speciesSprites:
+#          Vox:
+#            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+#            state: shadow_VOX
 
 - type: entity
   parent: BaseAnomalyInjector

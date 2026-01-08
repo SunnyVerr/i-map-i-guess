@@ -20,7 +20,7 @@
     - RandomRockAnomalySpawner
     - AnomalyLiquid
     - AnomalyFlora
-    - AnomalyShadow
+    #- AnomalyShadow - Clover
     - AnomalyTech
     #- AnomalySanta
     rareChance: 0.3

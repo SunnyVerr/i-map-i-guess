@@ -433,7 +433,7 @@
 
 - type: entity
   name: immovable rod launcher
-  parent: WeaponLauncherAdmemeMeteorLarge
+  parent: WeaponLauncherMultipleRocket # Clover - Changed parent from WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
   description: It fires slow immovable rods.

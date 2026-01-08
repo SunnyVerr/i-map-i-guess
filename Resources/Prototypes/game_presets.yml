@@ -6,26 +6,27 @@
   showInVote: false # secret
   description: survival-description
   rules:
-    - MeteorSwarmScheduler
+    # MeteorSwarmScheduler - Clover
     - RampingStationEventScheduler
     - SpaceTrafficControlEventScheduler
     - SpaceTrafficControlFriendlyEventScheduler
     - BasicRoundstartVariation
 
-- type: gamePreset
-  id: KesslerSyndrome
-  alias:
-    - kessler
-    - junk
-    - meteorhell
-  name: kessler-syndrome-title
-  showInVote: false # secret
-  description: kessler-syndrome-description
-  rules:
-    - KesslerSyndromeScheduler
-    - RampingStationEventScheduler
-    - SpaceTrafficControlEventScheduler
-    - BasicRoundstartVariation
+# Clover
+#- type: gamePreset
+#  id: KesslerSyndrome
+#  alias:
+#    - kessler
+#    - junk
+#    - meteorhell
+#  name: kessler-syndrome-title
+#  showInVote: false # secret
+#  description: kessler-syndrome-description
+#  rules:
+#    - KesslerSyndromeScheduler
+#    - RampingStationEventScheduler
+#    - SpaceTrafficControlEventScheduler
+#    - BasicRoundstartVariation
 
 - type: gamePreset
   id: AllAtOnce
@@ -62,9 +63,9 @@
     - Zombie
     - Wizard
     - BasicStationEventScheduler
-    - KesslerSyndromeScheduler
-    - MeteorSwarmMildScheduler
-    - MeteorSwarmScheduler
+    # KesslerSyndromeScheduler - Clover
+    # MeteorSwarmMildScheduler - Clover
+    # MeteorSwarmScheduler - Clover
     - RampingStationEventScheduler
     - SpaceTrafficControlEventScheduler
     - SpaceTrafficControlFriendlyEventScheduler
@@ -109,7 +110,7 @@
   - DynamicRule
   - DummyNonAntag
   - DynamicStationEventScheduler
-  - MeteorSwarmScheduler
+  # MeteorSwarmScheduler - Clover
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -148,7 +149,7 @@
   - Traitor
   - SubGamemodesRule
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  # MeteorSwarmScheduler - Clover
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -177,7 +178,7 @@
   - DummyNonAntagChance
   - SubGamemodesRule
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  # MeteorSwarmScheduler - Clover
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -195,7 +196,7 @@
   - Revolutionary
   - SubGamemodesRule
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  # MeteorSwarmScheduler - Clover
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -211,7 +212,7 @@
   - DummyNonAntagChance
   - SubGamemodesRuleNoWizard #No Dual Wizards at the start, midround is fine
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  # MeteorSwarmScheduler - Clover
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 
@@ -229,7 +230,7 @@
   rules:
   - Zombie
   - BasicStationEventScheduler
-  - MeteorSwarmScheduler
+  # MeteorSwarmScheduler - Clover
   - SpaceTrafficControlEventScheduler
   - BasicRoundstartVariation
 

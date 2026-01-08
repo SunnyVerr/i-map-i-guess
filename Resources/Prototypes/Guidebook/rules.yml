@@ -3,7 +3,6 @@
   name: Clover Server Rules
   ruleEntry: true
   priority: 0
-  category: Rules
   text: "/ServerInfo/Guidebook/ServerRules/CloverRules.xml"
 
 

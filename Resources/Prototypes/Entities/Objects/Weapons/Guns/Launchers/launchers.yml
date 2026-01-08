@@ -417,18 +417,19 @@
             True: { visible: true }
             False: { visible: false }
 
-- type: entity
-  name: meteor launcher
-  parent: WeaponLauncherMultipleRocket
-  id: WeaponLauncherAdmemeMeteorLarge
-  suffix: Admeme
-  description: It fires large meteors.
-  components:
-  - type: BallisticAmmoProvider
-    whitelist: # Redundant
-      tags:
-        - CartridgeRocket
-    proto: MeteorMedium
+# Clover
+#- type: entity
+#  name: meteor launcher
+#  parent: WeaponLauncherMultipleRocket
+#  id: WeaponLauncherAdmemeMeteorLarge
+#  suffix: Admeme
+#  description: It fires large meteors.
+#  components:
+#  - type: BallisticAmmoProvider
+#    whitelist: # Redundant
+#      tags:
+#        - CartridgeRocket
+#    proto: MeteorMedium
 
 - type: entity
   name: immovable rod launcher

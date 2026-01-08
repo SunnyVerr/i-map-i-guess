@@ -36,7 +36,7 @@
 - files: ["breakofdawn.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Break Of Dawn - Scott Brown Remix by Bang! is used with permission from the artist. Converted from Stereo to Mono"
-  source: "https://www.youtube.com/watch?v=SFjFANq1Vqo"  
+  source: "https://www.youtube.com/watch?v=SFjFANq1Vqo"
 
 - files: ["square1mptm.ogg"]
   license: "CC-BY-NC-SA-3.0"
@@ -46,16 +46,17 @@
 - files: ["merchant.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "merchant. by 3log! is used with permission from the artist."
-  source: "https://www.youtube.com/watch?v=EptFeKzXY8Y"  
+  source: "https://www.youtube.com/watch?v=EptFeKzXY8Y"
 
 - files: ["laughterhouse(mptm).ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "laughterhouse (mptm) by 3log! is used with permission from the artist, changed from STEREO to MONO OGG with https://onlineaudioconverter.com/"
   source: "https://www.youtube.com/watch?v=D_iH8CJkfTs"
 
-- files: ["MeatyLance.ogg"] 
+- files: ["MeatyLance.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Meaty Lance by SUMPP"
+  source: "https://www.youtube.com/watch?v=H3fijdBkYEs"
 
 - files: ["megahit.ogg"]
   license: "CC-BY-NC-SA-3.0"
@@ -65,14 +66,17 @@
 - files: ["nwo.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Are you ready for ze new world order? by Michaelanthony"
+  source: "https://www.youtube.com/watch?v=5iyxJ72G0lM"
 
 - files: ["lobcorp.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Hokma Suppression by Dr. ReB from Lobotomy Corporation"
+  source: "https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/" # idek man
 
 - files: ["flatliners.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Flatliners by Simon Harris and Yell-O Phase"
+  source: "https://www.youtube.com/watch?v=NrU_Ydrqj7o" # No source given
 
 - files: ["lwtua.ogg"]
   license: "CC-BY-NC-SA-3.0"
@@ -90,16 +94,16 @@
   source: "https://www.youtube.com/watch?v=3CZNghXIrvo"
 
 - files: ["1812.ogg"]
-  license: "Public Domain"
+  license: "CC0-1.0"
   copyright: "1812 Overture by Melodica Men"
   source: "https://www.youtube.com/watch?v=S3L_jYY2KC8"
 
-- files: [melcom.ogg]
+- files: ["melcom.ogg"]
   license: "CC-BY-NC-SA-3.0"
   copyright: "Cyberpunk by Melcom"
   source: "https://melcom.bandcamp.com/track/cyberpunk"
 
-- files: [ADR.ogg]
+- files: ["ADR.ogg"]
   license: "CC-BY-3.0"
   copyright: "A different reality by Andreas Viklund (Lagoona Mix)"
   source: "https://www.youtube.com/watch?v=s3Eq0JQ3RU8"

@@ -60,6 +60,7 @@
     - type: Physics
       ignorePaused: true
       bodyType: Kinematic
+    - type: Pacified
 
 
 

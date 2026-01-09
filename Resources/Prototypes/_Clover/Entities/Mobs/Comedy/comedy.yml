@@ -37,7 +37,7 @@
       thresholds:
         0: Alive
         300: Critical
-        350: Dead 
+        350: Dead
     - type: Damageable
     - type: GhostRole
       name: Gira
@@ -54,8 +54,6 @@
       - hand_right
       - hand_left
     - type: ComplexInteraction
-    #- type: Puller
-      needsHands: false
     - type: CombatMode
     - type: Physics
       ignorePaused: true

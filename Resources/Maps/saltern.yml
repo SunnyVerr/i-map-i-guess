@@ -26882,11 +26882,12 @@ entities:
       parent: 31
 - proto: ClothingHandsGlovesLatex
   entities:
-  - uid: 2212
-    components:
-    - type: Transform
-      pos: 19.45916,-20.403913
-      parent: 31
+# Clover
+#  - uid: 2212
+#    components:
+#    - type: Transform
+#      pos: 19.45916,-20.403913
+#      parent: 31
   - uid: 7102
     components:
     - type: Transform

@@ -36,4 +36,4 @@
   - type: RandomMetadata
     nameSegments:
     - NamesMilitaryLast
-    nameFormat: name-format-ert-leader
+    nameFormat: name-format-ert

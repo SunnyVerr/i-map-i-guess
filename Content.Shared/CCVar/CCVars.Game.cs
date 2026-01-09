@@ -21,7 +21,7 @@ public sealed partial class CCVars
     ///     Controls the duration of the lobby timer in seconds. Defaults to 2 minutes and 30 seconds.
     /// </summary>
     public static readonly CVarDef<int>
-        GameLobbyDuration = CVarDef.Create("game.lobbyduration", 150, CVar.ARCHIVE);
+        GameLobbyDuration = CVarDef.Create("game.lobbyduration", 120, CVar.ARCHIVE);
 
     /// <summary>
     ///     Controls if players can latejoin at all.
@@ -57,7 +57,7 @@ public sealed partial class CCVars
     ///     Controls if round-end window shows whether the objective was completed or not.
     /// </summary>
     public static readonly CVarDef<bool>
-        GameShowGreentext = CVarDef.Create("game.showgreentext", true, CVar.ARCHIVE | CVar.SERVERONLY);
+        GameShowGreentext = CVarDef.Create("game.showgreentext", false, CVar.ARCHIVE | CVar.SERVERONLY); ///its cool
 
     /// <summary>
     ///     Controls the maximum number of character slots a player is allowed to have.

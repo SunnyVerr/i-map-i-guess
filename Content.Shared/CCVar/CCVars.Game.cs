@@ -21,7 +21,7 @@ public sealed partial class CCVars
     ///     Controls the duration of the lobby timer in seconds. Defaults to 2 minutes and 30 seconds.
     /// </summary>
     public static readonly CVarDef<int>
-        GameLobbyDuration = CVarDef.Create("game.lobbyduration", 150, CVar.ARCHIVE);
+        GameLobbyDuration = CVarDef.Create("game.lobbyduration", 120, CVar.ARCHIVE);
 
     /// <summary>
     ///     Controls if players can latejoin at all.
@@ -57,7 +57,7 @@ public sealed partial class CCVars
     ///     Controls if round-end window shows whether the objective was completed or not.
     /// </summary>
     public static readonly CVarDef<bool>
-        GameShowGreentext = CVarDef.Create("game.showgreentext", true, CVar.ARCHIVE | CVar.SERVERONLY);
+        GameShowGreentext = CVarDef.Create("game.showgreentext", false, CVar.ARCHIVE | CVar.SERVERONLY); ///its cool
 
     /// <summary>
     ///     Controls the maximum number of character slots a player is allowed to have.
@@ -347,14 +347,14 @@ public sealed partial class CCVars
     ///     Delay between station alert level changes.
     /// </summary>
     public static readonly CVarDef<int> GameAlertLevelChangeDelay =
-        CVarDef.Create("game.alert_level_change_delay", 30, CVar.SERVERONLY);
+        CVarDef.Create("game.alert_level_change_delay", 15, CVar.SERVERONLY);
 
     /// <summary>
     ///     The time in seconds that the server should wait before restarting the round.
     ///     Defaults to 2 minutes.
     /// </summary>
     public static readonly CVarDef<float> RoundRestartTime =
-        CVarDef.Create("game.round_restart_time", 120f, CVar.SERVERONLY);
+        CVarDef.Create("game.round_restart_time", 300f, CVar.SERVERONLY); /// 5 minutes
 
     /// <summary>
     ///     The prototype to use for secret weights.
@@ -384,7 +384,7 @@ public sealed partial class CCVars
     ///     so it's off by default.
     /// </remarks>
     public static readonly CVarDef<bool> GameTabletopPlace =
-        CVarDef.Create("game.tabletop_place", false, CVar.SERVERONLY);
+        CVarDef.Create("game.tabletop_place", false, CVar.SERVERONLY);  ///enable when replays are real
 
     /// <summary>
     ///     If true, contraband severity can be viewed in the examine menu
@@ -396,7 +396,7 @@ public sealed partial class CCVars
     ///     If true, contraband examination is only possible while wearing an item with `ShowContrabandDetailsComponent`. Requires `ContrabandExamine` to be true as well.
     /// </summary>
     public static readonly CVarDef<bool> ContrabandExamineOnlyInHUD =
-        CVarDef.Create("game.contraband_examine_only_in_hud", false, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("game.contraband_examine_only_in_hud", true, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Size of the lookup area for adding entities to the context menu

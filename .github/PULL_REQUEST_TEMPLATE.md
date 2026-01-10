@@ -4,7 +4,7 @@
 
 ### LICENSE: MIT
 > [!IMPORTANT]
-> Your license for contributing to Clover must always be MIT or MPL, if not - It will get denied.
+> Your license for contributing to Clover must always be MIT or MPL (or similar, non-viral Licenses) , if not - It will get denied.
 
 ## Why / Balance
 <!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->

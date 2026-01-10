@@ -2,6 +2,9 @@
 ## About the PR
 <!-- What did you change? -->
 
+### LICENSE: MIT
+<!-- Your license for contributing to Clover must always be MIT or MPL, if not - It will get denied. -->
+
 ## Why / Balance
 <!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->
 
@@ -15,7 +18,7 @@ Small fixes/refactors are exempt. -->
 ## Requirements
 <!-- Confirm the following by placing an X in the brackets [X]: -->
 - [ ] I have added media to this PR or it does not require an ingame showcase.
-- [ ] I have filled out the
+- [ ] Tested, Works.
 <!-- You should understand that not following the above may get your PR closed at maintainer’s discretion -->
 
 ## Breaking changes

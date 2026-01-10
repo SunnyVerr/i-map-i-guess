@@ -68,7 +68,7 @@ public sealed partial class CCVars
         /// </summary>
         [CVarControl(AdminFlags.VarEdit)]
         public static readonly CVarDef<float> PlaytestReagentHealModifier =
-            CVarDef.Create("playtest.reagent_heal_modifier", 1f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("playtest.reagent_heal_modifier", 1.4f, CVar.SERVER | CVar.REPLICATED); // Makes meds life easier, decrease when pop rises!
 
         /// <summary>
         ///     Scales the explosion damage dealt in the game.

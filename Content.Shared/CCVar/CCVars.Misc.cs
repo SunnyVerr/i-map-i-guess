@@ -38,7 +38,7 @@ public sealed partial class CCVars
     ///     some food object won't spam a user with flavors.
     /// </summary>
     public static readonly CVarDef<int>
-        FlavorLimit = CVarDef.Create("flavor.limit", 10, CVar.SERVER | CVar.REPLICATED);
+        FlavorLimit = CVarDef.Create("flavor.limit", 30, CVar.SERVER | CVar.REPLICATED);
 
     public static readonly CVarDef<string> DestinationFile =
         CVarDef.Create("autogen.destination_file", "", CVar.SERVER | CVar.SERVERONLY);
@@ -55,7 +55,7 @@ public sealed partial class CCVars
     ///     This is useful to free some space automatically. Auto-deletion runs only on server boot.
     /// </summary>
     public static readonly CVarDef<int> ResourceUploadingStoreDeletionDays =
-        CVarDef.Create("netres.store_deletion_days", 30, CVar.SERVER | CVar.SERVERONLY);
+        CVarDef.Create("netres.store_deletion_days", 15, CVar.SERVER | CVar.SERVERONLY); //Good practise
 
     /// <summary>
     ///     If a server update restart is pending, the delay after the last player leaves before we actually restart. In seconds.

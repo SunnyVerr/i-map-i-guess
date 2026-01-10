@@ -9,13 +9,13 @@ public sealed partial class CCVars
     ///     Extremely small values may impact performance.
     /// </summary>
     public static readonly CVarDef<float> RadiationMinIntensity =
-        CVarDef.Create("radiation.min_intensity", 0.1f, CVar.SERVERONLY);
+        CVarDef.Create("radiation.min_intensity", 0.15f, CVar.SERVERONLY);
 
     /// <summary>
     ///     Rate of radiation system update in seconds.
     /// </summary>
     public static readonly CVarDef<float> RadiationGridcastUpdateRate =
-        CVarDef.Create("radiation.gridcast.update_rate", 1.0f, CVar.SERVERONLY);
+        CVarDef.Create("radiation.gridcast.update_rate", 1.4f, CVar.SERVERONLY);
 
     /// <summary>
     ///     If both radiation source and receiver are placed on same grid, ignore grids between them.
@@ -28,5 +28,5 @@ public sealed partial class CCVars
     ///     Max distance that radiation ray can travel in meters.
     /// </summary>
     public static readonly CVarDef<float> RadiationGridcastMaxDistance =
-        CVarDef.Create("radiation.gridcast.max_distance", 50f, CVar.SERVERONLY);
+        CVarDef.Create("radiation.gridcast.max_distance", 100f, CVar.SERVERONLY);
 }

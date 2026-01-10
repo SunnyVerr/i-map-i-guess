@@ -80,25 +80,25 @@ public sealed partial class CCVars
     ///     How long the warmup time before FTL start should be.
     /// </summary>
     public static readonly CVarDef<float> FTLStartupTime =
-        CVarDef.Create("shuttle.startup_time", 5.5f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.startup_time", 10f, CVar.SERVERONLY);
 
     /// <summary>
     ///     How long a shuttle spends in FTL.
     /// </summary>
     public static readonly CVarDef<float> FTLTravelTime =
-        CVarDef.Create("shuttle.travel_time", 20f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.travel_time", 5f, CVar.SERVERONLY);
 
     /// <summary>
     ///     How long the final stage of FTL before arrival should be.
     /// </summary>
     public static readonly CVarDef<float> FTLArrivalTime =
-        CVarDef.Create("shuttle.arrival_time", 5f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.arrival_time", 2f, CVar.SERVERONLY);
 
     /// <summary>
     ///     How much time needs to pass before a shuttle can FTL again.
     /// </summary>
     public static readonly CVarDef<float> FTLCooldown =
-        CVarDef.Create("shuttle.cooldown", 10f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.cooldown", 15f, CVar.SERVERONLY);
 
     /// <summary>
     ///     The maximum <see cref="PhysicsComponent.Mass"/> a grid can have before it becomes unable to FTL.
@@ -111,50 +111,50 @@ public sealed partial class CCVars
     ///     How long to knock down entities for if they aren't buckled when FTL starts and stops.
     /// </summary>
     public static readonly CVarDef<float> HyperspaceKnockdownTime =
-        CVarDef.Create("shuttle.hyperspace_knockdown_time", 5f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.hyperspace_knockdown_time", 4f, CVar.SERVERONLY);
 
     /// <summary>
     ///     Is the emergency shuttle allowed to be early launched.
     /// </summary>
     public static readonly CVarDef<bool> EmergencyEarlyLaunchAllowed =
-        CVarDef.Create("shuttle.emergency_early_launch_allowed", false, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("shuttle.emergency_early_launch_allowed", true, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     How long the emergency shuttle remains docked with the station, in seconds.
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleDockTime =
-        CVarDef.Create("shuttle.emergency_dock_time", 180f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_dock_time", 300f, CVar.SERVERONLY); /// Since early launch is enabled, a long evac time allows for more moments to be had :D
 
     /// <summary>
     ///     If the emergency shuttle can't dock at a priority port, the dock time will be multiplied with this value.
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleDockTimeMultiplierOtherDock =
-        CVarDef.Create("shuttle.emergency_dock_time_multiplier_other_dock", 1.6667f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_dock_time_multiplier_other_dock", 2f, CVar.SERVERONLY); ///easier
 
     /// <summary>
     ///     If the emergency shuttle can't dock at all, the dock time will be multiplied with this value.
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleDockTimeMultiplierNoDock =
-        CVarDef.Create("shuttle.emergency_dock_time_multiplier_no_dock", 2f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_dock_time_multiplier_no_dock", 2.5f, CVar.SERVERONLY);
 
     /// <summary>
     ///     How long after the console is authorized for the shuttle to early launch.
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleAuthorizeTime =
-        CVarDef.Create("shuttle.emergency_authorize_time", 10f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_authorize_time", 30f, CVar.SERVERONLY);
 
     /// <summary>
     ///     The minimum time for the emergency shuttle to arrive at centcomm.
     ///     Actual minimum travel time cannot be less than <see cref="ShuttleSystem.DefaultArrivalTime"/>
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleMinTransitTime =
-        CVarDef.Create("shuttle.emergency_transit_time_min", 60f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_transit_time_min", 30f, CVar.SERVERONLY);
 
     /// <summary>
     ///     The maximum time for the emergency shuttle to arrive at centcomm.
     /// </summary>
     public static readonly CVarDef<float> EmergencyShuttleMaxTransitTime =
-        CVarDef.Create("shuttle.emergency_transit_time_max", 180f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.emergency_transit_time_max", 160f, CVar.SERVERONLY);
 
     /// <summary>
     ///     Whether the emergency shuttle is enabled or should the round just end.
@@ -167,21 +167,21 @@ public sealed partial class CCVars
     ///     ex. a call time of 10min and turning point of 0.5 means the shuttle cannot be recalled after 5 minutes.
     /// </summary>
     public static readonly CVarDef<float> EmergencyRecallTurningPoint =
-        CVarDef.Create("shuttle.recall_turning_point", 0.5f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.recall_turning_point", 0.6f, CVar.SERVERONLY);
 
     /// <summary>
     ///     Time in minutes after round start to auto-call the shuttle. Set to zero to disable.
     /// </summary>
     [CVarControl(AdminFlags.Server | AdminFlags.Mapping, min: 0, max: int.MaxValue)]
     public static readonly CVarDef<int> EmergencyShuttleAutoCallTime =
-        CVarDef.Create("shuttle.auto_call_time", 90, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.auto_call_time", 120, CVar.SERVERONLY);
 
     /// <summary>
     ///     Time in minutes after the round was extended (by recalling the shuttle) to call
     ///     the shuttle again.
     /// </summary>
     public static readonly CVarDef<int> EmergencyShuttleAutoCallExtensionTime =
-        CVarDef.Create("shuttle.auto_call_extension_time", 45, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.auto_call_extension_time", 60, CVar.SERVERONLY);
 
     /// <summary>
     ///     Impulse multiplier for player interactions that move grids (other than shuttle thrusters, gyroscopes and grid collisons).

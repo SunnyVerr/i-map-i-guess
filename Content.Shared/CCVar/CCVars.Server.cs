@@ -46,13 +46,13 @@ public sealed partial class CCVars
     ///     If empty, the title will be {ui-lobby-title} + the server's full name from the hub
     /// </summary>
     public static readonly CVarDef<string> ServerLobbyName =
-        CVarDef.Create("server.lobby_name", "", CVar.REPLICATED | CVar.SERVER);
+        CVarDef.Create("server.lobby_name", "", CVar.REPLICATED | CVar.SERVER); /// fine as is
 
     /// <summary>
     ///     The width of the right side (chat) panel in the lobby
     /// </summary>
     public static readonly CVarDef<int> ServerLobbyRightPanelWidth =
-        CVarDef.Create("server.lobby_right_panel_width", 650, CVar.REPLICATED | CVar.SERVER);
+        CVarDef.Create("server.lobby_right_panel_width", 700, CVar.REPLICATED | CVar.SERVER);
 
     /// <summary>
     ///     Forces clients to display version watermark, as if HudVersionWatermark was true

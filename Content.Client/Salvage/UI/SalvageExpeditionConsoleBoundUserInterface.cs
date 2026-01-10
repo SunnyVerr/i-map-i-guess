@@ -62,6 +62,7 @@ public sealed class SalvageExpeditionConsoleBoundUserInterface : BoundUserInterf
             var difficultyId = "Moderate";
             var difficultyProto = _protoManager.Index<SalvageDifficultyPrototype>(difficultyId);
             // TODO: Selectable difficulty soon.
+            // :trollface:
             var mission = salvage.GetMission(difficultyProto, missionParams.Seed);
 
             // Difficulty

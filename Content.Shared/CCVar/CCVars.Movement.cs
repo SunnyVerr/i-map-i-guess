@@ -32,7 +32,7 @@ public sealed partial class CCVars
     /// </summary>
     [CVarControl(AdminFlags.VarEdit)]
     public static readonly CVarDef<float> MovementPushingCap =
-        CVarDef.Create("movement.pushing_cap", 25f, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("movement.pushing_cap", 10f, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// Minimum pushing impulse per tick. If the value is below this it rounds to 0.

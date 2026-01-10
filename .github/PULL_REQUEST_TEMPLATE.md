@@ -3,7 +3,8 @@
 <!-- What did you change? -->
 
 ### LICENSE: MIT
-<!-- Your license for contributing to Clover must always be MIT or MPL, if not - It will get denied. -->
+> [!IMPORTANT]
+> Your license for contributing to Clover must always be MIT or MPL, if not - It will get denied.
 
 ## Why / Balance
 <!-- Discuss how this would affect game balance or explain why it was changed. Link any relevant discussions or issues. -->

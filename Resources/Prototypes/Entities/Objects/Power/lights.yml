@@ -55,7 +55,7 @@
         spawn:
           ShardGlass:
             min: 1
-            max: 2 #Clover
+            max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Appearance

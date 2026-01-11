@@ -13,17 +13,37 @@
     entries:
       CottonBurger: ScolipedePlushie
 
-  - type: entity
-    parent: BasePlushie
-    id: PlushieMickIvory
-    name: mick ivory plushie
-    description: Smells like a Dark-Ambient Post-Rock CD collection.
-    components:
-    - type: Sprite
-      sprite: _Clover/Objects/Fun/Plushies/ivory.rsi
-      state: icon
-    - type: Item
-      sprite: _Clover/Objects/Fun/Plushies/ivory.rsi
-    - type: FoodSequenceElement
-      entries:
-        CottonBurger: MickIvoryPlushie
+- type: entity
+  parent: BasePlushie
+  id: PlushieMickIvory
+  name: mick ivory plushie
+  description: Smells like a Dark-Ambient Post-Rock CD collection.
+  components:
+  - type: Sprite
+    sprite: _Clover/Objects/Fun/Plushies/ivory.rsi
+    state: icon
+  - type: Item
+    sprite: _Clover/Objects/Fun/Plushies/ivory.rsi
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_Clover/Comedy/gira_scream.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Clover/Comedy/gira_scream.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_Clover/Comedy/gira_scream.ogg
+      params:
+        volume: -8
+  - type: EmitSoundOnCollide
+    sound: 
+      path: /Audio/_Clover/Comedy/gira_scream.ogg
+      params:
+        volume: -8 
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: MickIvoryPlushie

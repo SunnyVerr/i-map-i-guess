@@ -13,7 +13,7 @@
     entries:
       CottonBurger: ScolipedePlushie
 
-  - type:
+  - type: entity
     parent: BasePlushie
     id: PlushieMickIvory
     name: mick ivory plushie

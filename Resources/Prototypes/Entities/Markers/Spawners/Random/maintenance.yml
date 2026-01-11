@@ -30,8 +30,10 @@
       - id: ClothingUnderSocksBee
       - id: ClothingUnderSocksCoder
       - id: ClothingHeadHatSquid
-      - id: ClothingHeadHatCowboyGira # Clover
-      - id: ClothingHeadHatTinfoilCrown # Clover
+      - id: ClothingHeadHatCowboyGira # Clover Start
+      - id: ClothingHeadHatTinfoilCrown
+      - id: PlushieMickIvory
+      - id: PlushieScolipede # Clover End
       # Animal Masks
       - !type:GroupSelector
         children:

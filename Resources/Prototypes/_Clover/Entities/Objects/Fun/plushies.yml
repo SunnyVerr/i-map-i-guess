@@ -12,3 +12,18 @@
   - type: FoodSequenceElement
     entries:
       CottonBurger: ScolipedePlushie
+
+  - type:
+    parent: BasePlushie
+    id: PlushieMickIvory
+    name: mick ivory plushie
+    description: Smells like a Dark-Ambient Post-Rock CD collection.
+    components:
+    - type: Sprite
+      sprite: _Clover/Objects/Fun/Plushies/ivory.rsi
+      state: icon
+    - type: Item
+      sprite: _Clover/Objects/Fun/Plushies/ivory.rsi
+    - type: FoodSequenceElement
+      entries:
+        CottonBurger: MickIvoryPlushie

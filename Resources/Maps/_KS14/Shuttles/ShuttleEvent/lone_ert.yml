@@ -210,7 +210,7 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
-    - type: ExplosionAirtightGrid
+    # - type: ExplosionAirtightGrid
   - uid: 156
     components:
     - type: MetaData

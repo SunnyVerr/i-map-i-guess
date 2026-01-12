@@ -35,5 +35,6 @@
     roleLoadout: [ RoleSurvivalSecurity ]
   - type: RandomMetadata
     nameSegments:
+    - NamesMilitaryFirstLeader
     - NamesMilitaryLast
     nameFormat: name-format-ert

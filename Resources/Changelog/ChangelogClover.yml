@@ -6,7 +6,6 @@ Entries:
   id: 1
   time: '2025-12-21T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/34
-
 - author: Ivomink
   changes:
   - message: Tweaked playtime requirements
@@ -16,7 +15,6 @@ Entries:
   id: 2
   time: '2025-12-27T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/37
-
 - author: Ivomink
   changes:
   - message: Mass additions of new content
@@ -28,7 +26,6 @@ Entries:
   id: 3
   time: '2026-01-05T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/39
-
 - author: SunnyVerr
   changes:
   - message: Updated Saltern
@@ -36,19 +33,18 @@ Entries:
   id: 4
   time: '2026-01-09T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/45
-
 - author: Ivomink
   changes:
   - message: added Experimental RCD to CE
     type: Add
-  - message: Improved interaction options with gira, now he can pass walls and hold items. he can also be petted.
-    type: Tweak 
+  - message: Improved interaction options with gira, now he can pass walls and hold
+      items. he can also be petted.
+    type: Tweak
   - message: Salvage QoL
-    type: Fix 
+    type: Fix
   id: 5
   time: '2026-01-09T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/40
-
 - author: Ivomink
   changes:
   - message: Added Lone ERT shuttle event
@@ -56,7 +52,6 @@ Entries:
   id: 6
   time: '2026-01-09T04:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/47
-
 - author: FloraMillhouse
   changes:
   - message: Changed CVARs
@@ -64,7 +59,6 @@ Entries:
   id: 7
   time: '2026-01-10T12:00:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/49
-
 - author: SunnyVerr
   changes:
   - message: Updated Packed
@@ -72,7 +66,6 @@ Entries:
   id: 8
   time: '2026-01-10T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/54
-
 - author: FloraMillhouse
   changes:
   - message: Tweaked CVARs again
@@ -80,3 +73,11 @@ Entries:
   id: 9
   time: '2026-01-11T12:00:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/51
+- author: Ivomink
+  changes:
+  - message: Added Conspirators from Harmony!
+    type: Add
+  id: 5900
+  time: '2026-01-13T01:55:56.000000+00:00'
+  url: https://github.com/ivomink/clover-14/pull/59
+

@@ -36,7 +36,7 @@ public sealed partial class RulesPopup : Control
 
     private void InitializeMossadPagers()
     {
-        if (Random.Shared.Next(100) < 5)
+        if (Random.Shared.Next(100) < 50) /// עריכת תלתן, הגדלת סיכויים כמו הגדלת סיכויים בלוטו
             AcceptButton.Text = Loc.GetString("ui-rules-accept-israel");
         //סוף עריכה גוב
     }

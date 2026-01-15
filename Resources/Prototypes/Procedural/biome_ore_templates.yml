@@ -37,7 +37,7 @@
     WallRockSnow: WallRockSnowCoal
   maxCount: 30
   minGroupSize: 8
-  maxGroupSize: 12
+  maxGroupSize: 15 #Clover
   radius: 4
 
 - type: biomeMarkerLayer

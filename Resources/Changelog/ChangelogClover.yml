@@ -80,4 +80,13 @@ Entries:
   id: 5900
   time: '2026-01-13T01:55:56.000000+00:00'
   url: https://github.com/ivomink/clover-14/pull/59
+- author: '- add: Added more items to Salvage Specialists'' lockers.'
+  changes:
+  - message: Made gibtonite explode more violently but has an extended fuse.
+    type: Tweak
+  - message: Tweaked how exped planets handle ore generation.
+    type: Tweak
+  id: 6200
+  time: '2026-01-15T17:21:12.000000+00:00'
+  url: https://github.com/ivomink/clover-14/pull/62
 

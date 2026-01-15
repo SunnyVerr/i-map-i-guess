@@ -83,16 +83,16 @@
     beepSound:
       collection: GlassCrack
   - type: RandomTimerTrigger
-    min: 8
-    max: 10
+    min: 10 #Clover
+    max: 15 #Clover
   - type: ExplodeOnTrigger
     keysIn:
     - timer
   - type: Explosive
     explosionType: DemolitionCharge
-    totalIntensity: 450
+    totalIntensity: 600 #Clover
     intensitySlope: 2.5
-    maxIntensity: 10
+    maxIntensity: 20 #Clover
     canCreateVacuum: false
   - type: Destructible
     thresholds:
@@ -106,7 +106,7 @@
           collection: GlassBreak
     - trigger:
         !type:DamageTrigger
-        damage: 500 # you have to really smack it for it to manually detonate. re-examine once defusal exists
+        damage: 700 # clover
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]

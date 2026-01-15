@@ -9,7 +9,7 @@
     OreSilver: 0.25
     OrePlasma: 0.20
     OreUranium: 0.20
-    OreArtifactFragment: 0.10
+    OreArtifactFragment: 0.20
     OreBananium: 0.10
 
 - type: oreDunGen

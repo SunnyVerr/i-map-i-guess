@@ -18,6 +18,12 @@
     - id: AppraisalTool
     - id: FireExtinguisher
     - id: Flare
+    - id: Pickaxe #Clover
+    - id: JetpackMiniFilled #Clover
+    - id: SeismicCharge #Clover
+    - id: EmergencyMedipen #Clover
+    - id: SpaceMedipen #Clover
+    - id: SyndicateBusinessCard #Clover
       prob: 0.3
       rolls: !type:ConstantNumberSelector
         value: 3

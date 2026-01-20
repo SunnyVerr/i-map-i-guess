@@ -50,7 +50,7 @@ public sealed partial class CCVars
     ///     Enables automatically forcing IC name rules. Uppercases the first letter of the first and last words of the name
     /// </summary>
     public static readonly CVarDef<bool> ICNameCase =
-        CVarDef.Create("ic.name_case", false, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("ic.name_case", true, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     Whether or not players' characters are randomly generated rather than using their selected characters in the creator.

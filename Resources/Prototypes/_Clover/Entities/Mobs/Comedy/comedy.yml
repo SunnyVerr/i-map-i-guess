@@ -41,6 +41,7 @@
     - type: GhostRole
       name: Gira
       description: And I am the sun, I rise above the world, And when the light goes out, I kill another child.
+      reregister: false # no duplicate giras
     - type: GhostTakeoverAvailable
     - type: GhostHearing
     - type: ComplexInteraction

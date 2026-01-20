@@ -96,4 +96,11 @@ Entries:
   id: 6800
   time: '2026-01-17T23:13:48.000000+00:00'
   url: https://github.com/ivomink/clover-14/pull/68
+- author: Ivomink
+  changes:
+  - message: Reverted some old PRs, and fixed gira ghost role.
+    type: Tweak
+  id: 6900
+  time: '2026-01-20T20:00:36.000000+00:00'
+  url: https://github.com/ivomink/clover-14/pull/69
 
